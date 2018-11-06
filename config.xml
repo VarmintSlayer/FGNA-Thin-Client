@@ -9,7 +9,6 @@
   </author>
 
   <icon src="res/fgna.png" />
-  <!-- <content src="https://s3.amazonaws.com/mobileapps/FGNAHistoricHomesTour/index_map.html" /> -->
   <content src="index.html" />
 
   <preference name='phonegap-version' value='cli-8.0.0' />
@@ -28,42 +27,4 @@
       <allow-intent href="market:*" />
   </platform>
 	
-	<plugin name="cordova-plugin-geolocation" spec="~4.0.1" />
-
-<!-- <plugin name="cordova-plugin-advanced-geolocation" spec="https://github.com/Esri/cordova-plugin-advanced-geolocation.git" />
--->
-
-<!--
-		OR
-	<plugin name="cordova-plugin-geolocation" source="npm" />
-		OR
-	cordova plugin add https://github.com/louisbl/cordova-plugin-locationservices.git#v2.1.0
-  -->
-
-  <!--
-    Licensed to the Apache Software Foundation (ASF) under one
-    or more contributor license agreements.  See the NOTICE file
-    distributed with this work for additional information
-    regarding copyright ownership.  The ASF licenses this file
-    to you under the Apache License, Version 2.0 (the
-    "License"); you may not use this file except in compliance
-    with the License.  You may obtain a copy of the License at
-      http://www.apache.org/licenses/LICENSE-2.0
-    Unless required by applicable law or agreed to in writing,
-    software distributed under the License is distributed on an
-    "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
-    KIND, either express or implied.  See the License for the
-    specific language governing permissions and limitations
-    under the License.
-  -->
-
-      <!-- According to the docs you only need this block -->
-      <!-- This plugin provides information about the device's location, such as latitude and longitude. -->
-      <!-- <plugin name="cordova-plugin-geolocation" spec="~4" /> -->
-      <!--  <plugin name="cordova-plugin-mauron85-background-geolocation" />
-	  <variable name="GEOLOCATION_USAGE_DESCRIPTION" value="This app uses your location to locate you on a map." />
-	  <variable name="GOOGLE_PLAY_SERVICES_VERSION" value="11+" />
-	  <variable name="ANDROID_SUPPORT_LIBRARY_VERSION" value="26+" />
-      </plugin> -->
-
 </widget>
