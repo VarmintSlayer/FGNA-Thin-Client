@@ -1,6 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="io.SutterCorps.FGNAHistoricHomesTour" version="2.1.1" android-versionCode="201018" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-  <name>FGNA Historic Homes Tour</name>
+<widget id="io.SutterCorps.FGNAHistoricHomesTour" version="0.1.1" android-versionCode="000101" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+  <!-- version="2.1.1" android-versionCode="201018" -->
+	<name>FGNA Historic Homes Tour</name>
   <description>
       FGNA Historic Homes Tour
   </description>
